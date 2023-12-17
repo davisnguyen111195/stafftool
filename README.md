@@ -1,7 +1,7 @@
 Một đơn vị sản xuất gồm có các cán bộ là công nhân, kỹ sư, nhân viên. Mỗi cán bộ cần quản lý các dữ liệu: Họ tên, tuổi, giới tính(name, nữ, khác), địa chỉ.
 
 - Cấp công nhân sẽ có thêm các thuộc tính riêng: Bậc (1 đến 10).
-- Cấp kỹ sư có thuộc tính riêng: Nghành đào tạo.
+- Cấp kỹ sư có thuộc tính riêng: Ngành đào tạo.
 - Các nhân viên có thuộc tính riêng: công việc.
 - 
 Yêu cầu 1: Xây dựng các lớp CongNhan, KySu, NhanVien kế thừa từ lớp CanBo.
