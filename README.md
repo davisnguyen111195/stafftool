@@ -3,7 +3,7 @@ Một đơn vị sản xuất gồm có các cán bộ là công nhân, kỹ sư
 - Cấp công nhân sẽ có thêm các thuộc tính riêng: Bậc (1 đến 10).
 - Cấp kỹ sư có thuộc tính riêng: Ngành đào tạo.
 - Các nhân viên có thuộc tính riêng: công việc.
-- 
+
 Yêu cầu 1: Xây dựng các lớp CongNhan, KySu, NhanVien kế thừa từ lớp CanBo.
 
 Yêu cầu 2: Xây dựng lớp QLCB(quản lý cán bộ) cài đặt các phương thức thực hiện các chức năng sau:
