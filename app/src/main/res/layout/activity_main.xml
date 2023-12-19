@@ -13,12 +13,43 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
         />
-<!--    <Button-->
-<!--        android:id="@+id/btn_Add"-->
-<!--        android:text="Add"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        />-->
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add name"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+        />
+    <EditText
+        android:id="@+id/addAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add address"
+        app:layout_constraintTop_toBottomOf="@+id/addName"
+        />
+    <EditText
+        android:id="@+id/addAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add age"
+        app:layout_constraintTop_toBottomOf="@+id/addAddress"
+        />
+    <Switch
+        android:id="@+id/addSex"
+        android:text="Male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@+id/addAge"/>
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/addAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
